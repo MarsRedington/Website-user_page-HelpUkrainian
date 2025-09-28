@@ -1,0 +1,63 @@
+.modalPrivTerms {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    z-index: 100;
+}
+
+.modalContent {
+    position: relative;
+    overflow-x:scroll;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.modalPrivTerms.active {
+    transform: scale(1);
+}
+
+.modalContent p {
+    padding: 5px;
+}
+
+.modalH {
+    color: #0066FF;
+    padding: 5px;
+}
+
+.modalContent ul  {
+    padding-left: 45px;
+}
+
+.modalButton {
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: #0066FF;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.closeModal {
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    left: 95%;
+}

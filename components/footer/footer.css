@@ -1,0 +1,47 @@
+.mainfooter {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #002255;
+}
+
+.footerText p {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.footerSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  width: 260.2px;
+  height: 20px;
+}
+
+.footerButton {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: #002255;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .mainfooter {
+    height: 75px;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+

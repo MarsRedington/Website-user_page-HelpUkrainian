@@ -1,0 +1,47 @@
+.sideBar {
+  width: 370px;
+  height: 100%;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ownerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.ownerPhoto {
+  width: 124px;
+  height: 124px;
+  background: #f0f0f0;
+  border-radius: 50%;
+}
+.ownerPhoto img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.ownerName {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #002255;
+  padding-top: 20px;
+}
+
+.ownerPosition {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #a0a0a0;
+}

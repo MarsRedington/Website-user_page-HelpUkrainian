@@ -1,0 +1,35 @@
+.selectComponent {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.selectComponentTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  color: #025;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.selectComponentControl {
+  margin-top: 10px;
+}
+
+.selectComponentControl select {
+  width: 250px;
+  height: 30px;
+  border-radius: 6px;
+  padding: 1px 8px;
+  border: 1px solid #F0F0F0;
+  color: #A0A0A0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

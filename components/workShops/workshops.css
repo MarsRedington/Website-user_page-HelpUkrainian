@@ -1,0 +1,146 @@
+.workshops {
+  margin: 0 auto;
+  max-width: 950px;
+  padding-top: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.workshopItem {
+  display: flex;
+}
+
+.workshopItem:last-child {
+  padding-bottom: 100px;
+}
+
+.itemDescription {
+  padding-top: 55px;
+}
+
+.itemBorder {
+  margin-left: 10px;
+}
+
+.number {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background-color: transparent;
+}
+
+.number img {
+  object-fit: contain;
+  position: absolute;
+  top: -70px;
+  left: -45px;
+  bottom: 0px;
+  color: #f0f0f0;
+}
+
+.workshopTitle {
+  padding-bottom: 40px;
+}
+
+.workshopTitle h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #0066ff;
+  padding-left: 50px;
+}
+
+.decorLine {
+  width: 1px;
+  min-height: 296px;
+  margin-left: 110px;
+  border: 2px dashed #5599ff;
+}
+
+.workshopText {
+  padding-left: 50px;
+}
+
+.workshopText p {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #002255;
+  padding-bottom: 15px;
+}
+
+.registerWorkshop {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+}
+
+.registerWorkshop a {
+  display: inline-block;
+  text-decoration: none;
+  width: 280px;
+  height: 50px;
+  background: #0066ff;
+  border-radius: 12px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 16px;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .decorLine {
+    min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .workshopTitle h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .workshopText p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .registerWorkshop a {
+    width: 242px;
+    height: 50px;
+  }
+
+  .workshops {
+    margin-left: 0;
+  }
+
+  .number {
+    width: 0;
+  }
+  
+  .decorLine {
+    min-height: 530px;
+    margin-left: 8px;
+  }
+
+  .itemBorder {
+    margin-left: 0;
+  }
+
+  .number img {
+    left: -145px;
+  }
+}

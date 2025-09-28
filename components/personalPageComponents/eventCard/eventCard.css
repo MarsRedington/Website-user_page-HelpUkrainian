@@ -1,0 +1,63 @@
+.mainEventCard {
+  width: 100%;
+  background-color: #ffff;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventsLevel {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 4px;
+  background: #fbdb3a;
+  color: #06f;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.eventCardTime,
+.eventCardLocation,
+.eventCardVolunteer,
+.eventCardSpeaker {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  color: #025;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding-top: 5px;
+}
+
+.cardInformation {
+  margin-top: 20px;
+}
+
+.deleteIconEvent {
+  cursor: pointer;
+}
+
+.eventCardTypeHeader {
+  margin-top: 15px;
+  color: #00b84a;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}

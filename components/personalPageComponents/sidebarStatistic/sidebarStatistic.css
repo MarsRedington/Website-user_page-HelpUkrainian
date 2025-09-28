@@ -1,0 +1,60 @@
+.titleStatistic {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #002255;
+  padding-bottom: 10px;
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+}
+
+.statWrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: space-between;
+  min-width: 145px;
+  max-width: 145px;
+  height: 97px;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.statWrap p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0066ff;
+}
+
+.statIcon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.statIcon img {
+  width: 20px;
+  height: 20px;
+}
+
+.statIcon p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #002255;
+}

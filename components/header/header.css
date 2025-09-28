@@ -1,0 +1,208 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 133px;
+  max-height: 133px;
+  padding: 0 40px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 213, 0, 0.3) 0%,
+    rgba(251, 219, 58, 0.17) 100%
+  );
+}
+
+.headerMenu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 24px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.headerMenu li {
+  list-style: none;
+  cursor: pointer;
+  line-height: 55px;
+  text-align: center;
+  align-items: center;
+  transition: all 1s;
+  position: relative;
+}
+
+.menuItem:hover::after {
+  width: 100%;
+}
+
+.menuItem::after {
+  content: "";
+  bottom: -1px;
+  left: 0;
+  position: absolute;
+  background-color: #2980b9;
+  height: 4px;
+  width: 0;
+  transition: all 0.5s;
+}
+
+.headerMenu li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #002255;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  height: 24px;
+  position: relative;
+}
+
+.actions li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.actions li a {
+  text-decoration: none;
+}
+
+.lang a {
+  width: 19px;
+  height: 24px;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 55px;
+  font-feature-settings: "liga" off;
+  color: #002255;
+}
+
+.login a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #002255;
+}
+
+.signup a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #002255;
+}
+
+.burger {
+  display: none;
+}
+
+.burgerIcon {
+  width: 15px;
+}
+
+@media screen and (max-width: 1016px) {
+  .headerMenu {
+    gap: 10px;
+  }
+  .actions {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .headerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    gap: 30px;
+    padding-top: 100px;
+    top: 133px;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: #ffff;
+    z-index: 20;
+    transition: 0.4s ease;
+  }
+
+  .headerBurger {
+    background: #ffff;
+  }
+
+  .headerMenu li a {
+    font-size: 28px;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+
+  .headerActive {
+    right: 0;
+  }
+
+  .actions {
+    gap: 40px;
+  }
+
+  .lang {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    padding-top: 100px;
+    top: 500px;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 20;
+    transition: 0.4s ease;
+  }
+
+  .actions li a {
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+  }
+
+  .actionsActive {
+    right: 0;
+  }
+
+  .actions {
+    gap: 40px;
+  }
+
+  .burger {
+    display: block;
+  }
+}

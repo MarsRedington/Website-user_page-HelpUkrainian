@@ -1,0 +1,28 @@
+.mainFaq {
+  width: 100%;
+  background: url("../../../public/assets/bg/faqBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.faq {
+  padding-top: 100px;
+}
+
+.faqTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #002255;
+}
+
+@media screen and (max-width: 590px) {
+  .faqTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

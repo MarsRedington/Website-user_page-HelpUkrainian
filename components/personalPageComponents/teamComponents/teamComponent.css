@@ -1,0 +1,6 @@
+.teamComponent {
+    width: calc(100% - 370px);
+    height: 100%;
+    background: #F0F0F0;
+    padding: 30px;
+}

@@ -1,0 +1,193 @@
+.addEventComponent {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  z-index: 100;
+}
+
+.addEventModal {
+  position: relative;
+  overflow-x: scroll;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.addEventComponent.active {
+  transform: scale(1);
+}
+
+.addEventComponentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.closeAddEventModal {
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  left: 92%;
+}
+
+.selectTypeEvent {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.selectComponentTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  color: #025;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.typeEventFrame {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid #06f;
+  background: #fff;
+  padding: 2px;
+}
+
+.selectTypeButton {
+  width: 50%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  background-color: white;
+  text-transform: uppercase;
+  border: none;
+  color: #0066ff;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.typeEventFrame button:hover {
+  background: #0066ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.activeType {
+  background: #0066ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.selectDateTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  color: #025;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.CCTitle, .WSTitle {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #025;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.selectDateControl {
+  margin-top: 10px;
+}
+
+.myDatePicker {
+  width: 250px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 1px 8px;
+  border: 1px solid #f0f0f0;
+
+  color: #a0a0a0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.addEventControl {
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+.addEventSave,
+.addEventCancel {
+  width: 151px;
+  height: 32px;
+  padding: 4px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+}
+
+.addEventCancel {
+  border: 1px solid #06f;
+  background-color: #ffff;
+}
+
+.addEventCancel:hover {
+  background-color: #a6afdb;
+}
+
+.addEventSave {
+  color: #ffff;
+  border: none;
+  background: #06f;
+}
+
+.addEventSave:hover {
+  background: rgb(188, 198, 213);
+}
+
+.addEventHr {
+  height: 1px;
+  background-color: #bee0ff;
+  border: none;
+}
+
+.addEventComponentHeader h1 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}

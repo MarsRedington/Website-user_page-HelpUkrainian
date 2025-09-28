@@ -1,0 +1,89 @@
+.eventWeekCardWrapper {
+  display: flex;
+  border-radius: 12px;
+  border: 1px dashed #bee0ff;
+  background: #f5f5f5;
+  height: 48px;
+  margin: 1px;
+  padding: 2px;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.eventWeekCardWrapper:hover {
+  z-index: 20;
+}
+
+.eventWeekCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.eventWeekCardHeader {
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eventWeekTime {
+  height: 100%;
+  color: #a0a0a0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.eventWeekCardType {
+  height: 12px;
+  color: #025;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px;
+}
+
+.eventWeekLocation {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+
+.eventWeekCardFooter {
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showWeekEventInfo button {
+  border: none;
+  padding-right: 10px;
+  color: #0066ff;
+  background: #f5f5f5;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.eventWeekLocation span {
+  height: 100%;
+  color: #06f;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+  text-decoration-line: underline;
+}

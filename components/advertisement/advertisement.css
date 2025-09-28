@@ -1,0 +1,220 @@
+.aboutWorkshops {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  background-image: url("../../../public/assets/bg/learnM_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.aboutDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px 40px;
+  margin-top: 367px;
+  gap: 20px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(74, 76, 83, 0.2);
+}
+
+.different {
+  width: 100%;
+  filter: drop-shadow(0px 2px 8px rgba(74, 76, 83, 0.2));
+}
+
+.aboutDescription h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #0066ff;
+}
+
+.aboutDescription h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0066ff;
+}
+
+.aboutDescription p {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #002255;
+}
+
+.aboutDescription a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  width: 281px;
+  height: 39px;
+  text-align: center;
+  line-height: 39px;
+  background: #0066ff;
+  border-radius: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.differentTitle {
+  margin-top: 20px;
+  padding: 40px 40px;
+  background: #0066ff;
+}
+
+.differentTitle h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.differentDescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px 40px;
+  gap: 50px;
+  background: #ffffff;
+}
+
+.differentText p {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #002255;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.registerHref {
+  width: 281px;
+  height: 39px;
+  text-align: center;
+  line-height: 39px;
+  background: #0066ff;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1550px) {
+  .aboutDescription {
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .aboutDescription {
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .aboutDescription {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .aboutDescription {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .aboutDescription {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .aboutDescription {
+    margin-top: 120px;
+  }
+  .differentDescription {
+    flex-direction: column;
+  }
+
+  .differentText p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .aboutDescription h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .aboutDescription h3 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .aboutDescription p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .differentTitle h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .aboutDescription {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutDescription {
+    margin-top: 80px;
+    padding: 60px 10px;
+  }
+  .aboutDescription h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .aboutDescription h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .aboutDescription p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .aboutDescription a {
+    width: 229px;
+    font-size: 14px;
+  }
+
+  .differentTitle h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .differentText p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

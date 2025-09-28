@@ -1,0 +1,96 @@
+.filterBy {
+  position: absolute;
+  left: -135px;
+  top: 40px;
+  width: 232px;
+  height: 396px;
+  background: #ffffff;
+  box-shadow: 0px 4px 60px rgba(0, 102, 255, 0.12);
+  border-radius: 12px;
+  padding: 20px 10px;
+  z-index: 100;
+}
+
+.filterLine {
+  width: 100%;
+  border: 1px solid #bee0ff;
+}
+
+#checkboxesConvClub,
+#checkboxesWorkshop {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#checkboxesConvClub label,
+#checkboxesWorkshop label {
+  display: flex;
+  gap: 5px;
+}
+
+#checkboxesConvClub label span,
+#checkboxesWorkshop label span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #002255;
+}
+
+#checkboxesConvClub label input,
+#checkboxesWorkshop label input {
+  border: 2px solid #0066ff;
+  border-radius: 4px;
+}
+
+.filterConvClub p,
+.filterWorkshop p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  color: #002255;
+}
+
+.mainFilterButtons {
+  display: flex;
+  justify-content: space-between;
+}
+.mainFilterButtons button{
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.filterButtonSave {
+  color:#ffffff;
+  background: #0066ff;
+  border: none;
+}
+
+.filterButtonSave:hover {
+  background: #84a2cb;
+  color:#0066ff;
+}
+
+.filterButtonCancel {
+  color: #0066ff;
+  background: #ffffff;
+  border: 1px solid #0066ff;
+}
+
+.filterButtonCancel:hover {
+  color: #c9d1de;
+  background: #4671b1;
+}

@@ -1,0 +1,72 @@
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.activitesItem {
+  width: 49%;
+  background: #ffffff;
+  border-radius: 12px;
+  filter: drop-shadow(0px 4px 60px rgba(0, 102, 255, 0.12));
+}
+
+.activitiesImg {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.itemText {
+  padding: 30px 20px;
+}
+
+.itemText h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 5px;
+}
+
+.itemText p {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #002255;
+}
+
+@media screen and (max-width: 1100px) {
+  .activities {
+    display: block;
+  }
+
+  .activitesItem {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .activities {
+    display: block;
+  }
+
+  .activitesItem {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,106 @@
+.presentation {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.buttonsBlock {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 40px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.buttons div {
+  width: 470px;
+  height: 50px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.learn {
+  border: 1px solid #0066FF;
+}
+
+.learn:hover {
+  background: rgba(0, 102, 255, 0.2);
+}
+
+.learn a {
+  display: inline-block;
+  width: 100%;
+  color: #0066ff;
+}
+
+.learn a,
+.join a {
+  text-decoration: none;
+}
+
+.join {
+  display: inline-block;
+  width: 100%;
+  background: #0066ff;
+}
+
+.join:hover {
+  background: #3b4452;;
+}
+
+.join a {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 2200px) {
+  .buttons div {
+    width: 407px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .buttons div {
+    width: 407px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .buttonsBlock {
+    justify-content: space-around;
+    gap: 0px;
+  }
+
+  .buttonsBlock button {
+    width: 367px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .buttonsBlock {
+    width: 100%;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .presentation {
+    padding-top: 40px;
+  }
+}

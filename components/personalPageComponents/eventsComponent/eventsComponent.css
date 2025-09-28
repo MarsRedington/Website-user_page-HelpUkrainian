@@ -1,0 +1,137 @@
+.eventsComponents {
+  width: calc(100% - 370px);
+  height: 100%;
+  background: #f0f0f0;
+  padding: 30px;
+}
+
+.eventContent {
+  margin-top: 30px;
+}
+
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background: #f0f0f0;
+  word-break: break-all;
+}
+
+.tabsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bloc-tabs {
+  width: 300px;
+  display: flex;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: #f0f0f0;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.active-tabs {
+  color: #0066ff;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #0066ff;
+}
+
+.bloc-tabs button {
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.eventsFilter {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 36px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.eventsFilterButton {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  background-color: white;
+  text-transform: uppercase;
+  border: none;
+  color: #0066ff;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.eventsFilterButton:hover {
+  background: #0066ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.activeButton{
+  background: #0066ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.content {
+  background: #f0f0f0;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.contentLine {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}

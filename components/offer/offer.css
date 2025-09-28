@@ -1,0 +1,9 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: url("../../../public/assets/bg/BG1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+}

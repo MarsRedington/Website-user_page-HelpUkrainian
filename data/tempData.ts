@@ -1,0 +1,156 @@
+export const events = [
+    {
+      id: 1,
+      locationId: "Location",
+      type: "Coversation Club",
+      event_date: 1686744055,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 2
+    },
+    {
+      id: 2,
+      locationId: "Location",
+      type: "Coversation Club",
+      event_date: 1686996055,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 2
+    },
+    {
+      id: 3,
+      locationId: "Location",
+      type: "Workshop",
+      event_date: 1686416455,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      iscAtive: true,
+      duration: 2
+    },
+    {
+      id: 4,
+      locationId: "Location",
+      type: "Coversation Club",
+      event_date: 1689008455,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 2.5
+    },
+    {
+      id: 5,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1687622455,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 2
+    },
+    {
+      id: 6,
+      locationId: "Location",
+      type: "Coversation Club",
+      event_date: 1687600855,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 1.5
+    },
+    {
+      id: 7,
+      locationId: "Location",
+      type: "Workshop",
+      event_date: 1687255255,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 3
+    },
+    {
+      id: 6,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1689102029 ,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 2
+    },
+    {
+      id: 7,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1689112829,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 1
+    },
+    {
+      id: 8,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1689102029,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 3
+    },
+    {
+      id: 9,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1689085428,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 3
+    },
+    {
+      id: 10,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1689262245,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 3
+    },
+    {
+      id: 11,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1689260445,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 1.5
+    },
+    {
+      id: 12,
+      locationId: "Location",
+      type: "Networking",
+      event_date: 1689801009,
+      description: "one",
+      metadata: "",
+      isOnline: false,
+      isActive: true,
+      duration: 1.5
+    },
+  ];

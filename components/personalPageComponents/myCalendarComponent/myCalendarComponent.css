@@ -1,0 +1,71 @@
+.myCalendarComponent {
+  width: 100%;
+}
+
+.calendarFilterFiels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dayFilter {
+  display: flex;
+  justify-content: space-between;
+  width: 267px;
+  height: 36px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.dayFilterButton {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  background-color: white;
+  text-transform: uppercase;
+  border: none;
+  color: #0066ff;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.dayFilter button:hover {
+  background: #0066ff;
+  color: white;
+  border-radius: 8px;
+}
+
+.mainFilter {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.filterTitle {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0066ff;
+}
+
+.chevron {
+  transform: rotate(90deg);
+}
+
+.activeRange {
+  background: #0066ff;
+  color: white;
+  border-radius: 8px;
+}

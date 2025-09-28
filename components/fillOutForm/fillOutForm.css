@@ -1,0 +1,246 @@
+.fillOutForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+  position: absolute;
+  width: 470px;
+  height: 550px;
+  right: 120px;
+  top: 100px;
+  background: #f0f0f0;
+  border-radius: 12px
+}
+
+.form h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #002255;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hint {
+  position: relative;
+}
+
+.disabledFormButton:after {
+  content: attr(data-title);
+  position: absolute;
+  top: -50px;
+  left: 40px;
+  width: 300px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  padding: 14px 20px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: 0.34s linear;
+  color: #0066ff;
+  box-shadow: 0 5px 12px #ccc;
+  pointer-events: none;
+  text-transform: none;
+}
+
+.disabledFormButton:hover:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.inputName {
+  width: 190px;
+  height: 48px;
+  border: none;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  font-feature-settings: "liga" off;
+  color: #a0a0a0;
+  padding-left: 7px;
+}
+
+input::placeholder {
+  padding-left: 5px;
+}
+
+.email,
+.phone,
+.request,
+.requestType,
+.areaMessage {
+  width: 390px;
+  height: 48px;
+  background: #ffffff;
+  border: none;
+  border-radius: 12px;
+  margin-top: 8px;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a0a0a0;
+  padding-left: 7px;
+}
+
+.areaMessage {
+  height: 96px;
+  padding-top: 5px;
+  resize: none;
+}
+
+.formButton {
+  width: 390px;
+  height: 50px;
+  margin-top: 8px;
+  background: #0066ff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.disabledFormButton {
+  background: #a8bedf;
+}
+
+.privTerms {
+  display: flex;
+  align-items: center;
+}
+
+.agreeCheck {
+  padding-left: 15px;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a0a0a0;
+}
+
+.privacy {
+  color: #0066ff;
+  cursor: pointer;
+}
+
+.formCheckbox {
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 2px;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader img {
+  width: 100px;
+}
+
+.errorMsgWrap {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.errorMessage {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.alert {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.imgMsg {
+  width: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+  .fillOutForm {
+    position: absolute;
+    width: 470px;
+    height: 550px;
+    right: 40px;
+    top: 116px;
+    background: #f0f0f0;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .fillOutForm {
+    position: static;
+    margin: auto;
+    height: 560px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .fillOutForm {
+    width: 360px;
+    height: 657px;
+  }
+
+  .inputContainer {
+    justify-content: center;
+  }
+
+  .inputName,
+  .email,
+  .phone,
+  .request,
+  .requestType,
+  .areaMessage,
+  .formButton {
+    width: 280px;
+  }
+
+  .errorMessage {
+    padding-top: 20px;
+  }
+
+  .disabledFormButton:after {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    width: 200px;
+  }
+}

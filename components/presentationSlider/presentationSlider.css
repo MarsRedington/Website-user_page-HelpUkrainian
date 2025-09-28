@@ -1,0 +1,157 @@
+.sliderBlock {
+  position: relative;
+  padding: 0 40px 0 40px;
+}
+
+.sliderContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.textSlider {
+  max-width: 40%;
+}
+
+.textPart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #002255;
+}
+
+.description {
+  padding-top: 15px;
+}
+
+.description p {
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #002255;
+}
+
+.imgBlock {
+  display: flex;
+  max-width: 60%;
+  min-width: 0;
+}
+
+.imageWrap img {
+  width: 100%;
+}
+
+.btnNext {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 40%;
+  left: 90%;
+  color: #ffffff;
+  font-size: 30px;
+  background: #0066ff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.activeBtn {
+  background: #052452;
+}
+
+.swiper {
+  height: 100%;
+}
+
+@media screen and (max-width: 1720px) {
+  .buttonCarousel {
+    left: 80%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sliderContainer {
+    display: block;
+  }
+
+  .textSlider {
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+
+  .imgBlock {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .btnNext {
+    top: 60%;
+    left: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .btnNext {
+    top: 60%;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .btnNext {
+    top: 68%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .btnNext {
+    top: 73%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .btnNext {
+    top: 73%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .description p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .btnNext {
+    top: 78%;
+    left: 80%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .btnNext {
+    left: 73%;
+  }
+}
